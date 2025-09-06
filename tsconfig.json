@@ -1,0 +1,16 @@
+{
+  // This file is not used in compilation. It is here just for a nice editor experience.
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    
+    "target": "ES2020",
+    "module": "CommonJS",          // 👈 important: Node expects CommonJS by default
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": "."
+  },
+  "exclude": [".docusaurus", "build"]
+}

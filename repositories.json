@@ -1,0 +1,25 @@
+{
+  "collections": [
+    {
+      "collectionName": "apis",
+      "repos": [
+        {
+          "title": "first",
+          "baseUrl": "https://github.com/facebook/docusaurus",
+          "path": "/examples/classic/docs/tutorial-basics",
+          "targetDir": "alonssss"
+        }
+      ]
+    },
+    {
+      "collectionName": "pipelines",
+      "repos": [
+        {
+          "title": "second",
+          "baseUrl": "https://github.com/facebook/docusaurus",
+          "path": "/examples/classic/docs/tutorial-extras"
+        }
+      ]
+    }
+  ]
+}
